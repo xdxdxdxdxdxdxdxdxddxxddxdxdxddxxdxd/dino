@@ -1,0 +1,168 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Spline+Sans%3Awght%40400%3B500%3B700"
+    />
+
+    <title>Stitch Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div class="relative flex size-full min-h-screen flex-col bg-[#141f18] dark group/design-root overflow-x-hidden" style='font-family: "Spline Sans", "Noto Sans", sans-serif;'>
+      <div class="layout-container flex h-full grow flex-col">
+        <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#2a4133] px-10 py-3">
+          <div class="flex items-center gap-4 text-white">
+            <div class="size-4">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 4H17.3334V17.3334H30.6666V30.6666H44V44H4V4Z" fill="currentColor"></path></svg>
+            </div>
+            <h2 class="text-white text-lg font-bold leading-tight tracking-[-0.015em]">Jurassic Universe</h2>
+          </div>
+          <div class="flex flex-1 justify-end gap-8">
+            <div class="flex items-center gap-9">
+              <a class="text-white text-sm font-medium leading-normal" href="#">Species Catalog</a>
+              <a class="text-white text-sm font-medium leading-normal" href="#">News</a>
+              <a class="text-white text-sm font-medium leading-normal" href="#">Games</a>
+              <a class="text-white text-sm font-medium leading-normal" href="#">About</a>
+            </div>
+            <button
+              class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 bg-[#2a4133] text-white gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5"
+            >
+              <div class="text-white" data-icon="MagnifyingGlass" data-size="20px" data-weight="regular">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                  <path d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"></path>
+                </svg>
+              </div>
+            </button>
+          </div>
+        </header>
+        <div class="px-40 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <div class="@container">
+              <div class="@[480px]:p-4">
+                <div
+                  class="flex min-h-[480px] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 @[480px]:rounded-xl items-center justify-center p-4"
+                  style='background-image: linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.4) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuD8cbMB12bLbd8brV5vbWTWfUcLcpiNeF5JVj_OAG1J4k1c6_grKOxQc2MDfGh4-PyudQ1lDl-X7k03rWM7YWjCq1uFX0RRmSBlChgd4_R22w_z-kIc8pzowd5yucKclrq-fln3LAgdhB3fcdj6yvWCvh0KQmPWGDPf7OX-TW8vo9nVw9cDRSl7Is4uAJo81uEtp_gJO-IQD_iwxlR9ACNlOPcgPx-90EQmOm7qf0YeJoYK49OPijqAIDQZHYybhod852rLWvTCQgQ");'
+                >
+                  <div class="flex flex-col gap-2 text-center">
+                    <h1
+                      class="text-white text-4xl font-black leading-tight tracking-[-0.033em] @[480px]:text-5xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em]"
+                    >
+                      Welcome to Jurassic Universe
+                    </h1>
+                    <h2 class="text-white text-sm font-normal leading-normal @[480px]:text-base @[480px]:font-normal @[480px]:leading-normal">
+                      Explore the world of dinosaurs from the Jurassic franchise. Discover species, news, games, and more.
+                    </h2>
+                  </div>
+                  <button
+                    class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-[#94e0b2] text-[#141f18] text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em]"
+                  >
+                    <span class="truncate">Explore Species</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <h2 class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Featured Species</h2>
+            <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBI75mh4Re9GQXnDtU5AqKZNfv4BsFVSy1bcYK0HuTOIeBuHG8F3jWWo-bsfvAK9wAPa5rJXfD4B0hFD1ShQfffOSqO09yDH9ehqrC4MpBcKKFAQGmkhN9eEPbj-1xMiMNhlBO8chIYU0s0aGa2oUIwTaR1Dj3ta5TurXueu1Kt0Vz9sqcUu6TzpqBcAfZQv1-dn1remJMgwG_y9k-quwGeGncXtPR4SWtlIEVmo8WhfekKZXRB5ixSHy_3ABx2bEaPLFjiF-Rac7w");'
+                ></div>
+                <div>
+                  <p class="text-white text-base font-medium leading-normal">Tyrannosaurus Rex</p>
+                  <p class="text-[#9bbfaa] text-sm font-normal leading-normal">Learn More</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAGBLpC8SsgycPr7P5xgXcsdxsBTVPxskkgB1wZSpCcVBazds90b26anF9ogtQ0MmX23omBDC9bbNHm579wxjMmkW0Rh2uIpcrSIfyLWeFArW_85Oi_VafBBtVb1qk55kx4f2MhYsqacqrYbMbBiQsNaqI7Spk5R3qJe5oZJltwhPHkedRz8zocP5NN5pPGqEz8H4AAlxpk42SyqYjHCO8y6r5beKBsAz_IK83o4OaxOy5L_GyyGijzs09L6V9dODeb2ajG_X0YW04");'
+                ></div>
+                <div>
+                  <p class="text-white text-base font-medium leading-normal">Velociraptor</p>
+                  <p class="text-[#9bbfaa] text-sm font-normal leading-normal">Learn More</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAlFSv-Q_9K5aHFBLOKbMS0W9ek0zjrRp-BNA7lwVWFct4TBaeFxo-9ri8lPWoKYxXNoxy-uhCcsotQC2KYrZLPKP6kxbCbUOW_mntgChTvT9IFEzFk12ZsziSR91yhOZ91HJ2ToCUDNVjGNBqA75wkPbjHguORRW6WQsnxYPxgDYNcT7Mck07y5tlz-l2U3iyIbL4fQvcqUQmJyzcqMF8flpG5ZIp3fcP6Cim_cCo4hBSHtcH86Aar6UAvJ7BUeWc3ImoOLY1HCOI");'
+                ></div>
+                <div>
+                  <p class="text-white text-base font-medium leading-normal">Triceratops</p>
+                  <p class="text-[#9bbfaa] text-sm font-normal leading-normal">Learn More</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCuCCJqlHjk4QdGUukRV_3Z_LQjzEwTL13jd9pLivHqJePIyth-ehSLC5YSNnXBVZSLz3v7vgUkC0bvQ2ccPdWyXAU-jaC8pYCJvqi-ox84Jwyzy-4U6uBh1wBCfjRyA5nTXfoaCQKNq7MCGtsJvwa3IYBw_l-4HEjkOVk3spup7zL8ZzdFdmmMnI0RbWSk4iYVQvrLK41VSIy6zxsYeXICB02QVJ0irp61Ri8uWucUzXoj9XmQigvJw4n3CW4MZpk2im38QcBdK8o");'
+                ></div>
+                <div>
+                  <p class="text-white text-base font-medium leading-normal">Stegosaurus</p>
+                  <p class="text-[#9bbfaa] text-sm font-normal leading-normal">Learn More</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDJPOpqeLfSfAs6vQq914HuJatWYxAE4-ZcipHnzcbE-rL1iuBSbw1bJb8IPq7SrBglM6ywPlRBr1gW73JeuTwp9f2AXIXEtYl65tdOVk-mkhWvGDAMlwtJKuf2FLxthZemFzRQyRjNOJdKoZhIygs7SmGnSIim9D3wI5XfVDIs_FeedH7EVcZndHU1O-E58Xu4IZK6Nqn7jpYcSDbFj-565DnF6WTcMX9U7SwA6UN2p4-cG5M1N4WTeJerDWpjAuffYPnrZBqZWHY");'
+                ></div>
+                <div>
+                  <p class="text-white text-base font-medium leading-normal">Brachiosaurus</p>
+                  <p class="text-[#9bbfaa] text-sm font-normal leading-normal">Learn More</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBwt5XG3G96t8syiR72ZENip3psmkK_YM7F0vYY1bmzpt8rIuEUnAL57jcCKpiz-dhsyhVVMKjbIrqiKnqQUPH8AJrMKzQPeiLqUodjf4jrQcokCM9mxgeTB8JzyDeDssL_yAgK1fN43ihzetnGX9gHYWKTHdb1YVVtncGwuekig2hmXH1_1R3O7KRkcD7C5nC7fUZrZFa28f_4DS6Pb2Gdygxejh57KEQRe11LAaaPROYe5lNlEdzinRo9YHNsIoD-FPxvxwGepOY");'
+                ></div>
+                <div>
+                  <p class="text-white text-base font-medium leading-normal">Pteranodon</p>
+                  <p class="text-[#9bbfaa] text-sm font-normal leading-normal">Learn More</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBkRjpaSAt52rHmopendqBbaPcduBIh0OQhIi_3yY2NXTYaJn1DkQYecKJH1lt9Qsv9CG6S0nMYbuqZ_NYwviLn9g92HVUPltWcDvYvqw858aLyxFJxxRYLBAOsV7I3EfpeJjHQicvT_3FedWiD16txPBc680mwZtR2hH7Uis3XJemSDey6S07PjvflFG5Hjrj7eWrW_qz55x2uBzI4YEBuoUb-8QrIfCxwZgzh4Krlp9pXy74FlmzkNX07lKjLE1xwF2GfLhLC8HU");'
+                ></div>
+                <div>
+                  <p class="text-white text-base font-medium leading-normal">Indominus Rex</p>
+                  <p class="text-[#9bbfaa] text-sm font-normal leading-normal">Learn More</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuD_-DC9qmof6avHfEBh0r9PpMDvPR1qYU_G-w3mHw9xCz2laQMX3ZSwMSHysZVqrpw-Ly26NLLJkR_LixrcEPSK9Q1Nzkjfb9s9qHG42yS1pGf4kf4UiIcNCVs_Vo5qJcucWOjs7fcI7vwtaPlC7AN6GtHuBy9-OBVfH2EJIP6ijrkJWGVS9RYoY0As8-droJ63AFdqOi9aC6AHR8O7mNZ3cJ4p3Syvyn_vyg1eNmSuh48JYx1WkoqTfu7D94zR21-6zscWXGhuDXA");'
+                ></div>
+                <div>
+                  <p class="text-white text-base font-medium leading-normal">Indo Raptor</p>
+                  <p class="text-[#9bbfaa] text-sm font-normal leading-normal">Learn More</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCqdzWQoMA3f2YBpYjBHTkmTvJBwSiH4JB7UbKaP7cgN0fmHPAzzsZI9AJ9_h_F9vaolAxHgU5cNPUSUwYysa-RkMQc0rJgDSKKPgQmdm_7TKL88UoEaKv2h1PddGt29t0m7TErnmTgKJ23ed9a7OdnJdOKAaCtpnoshaGyMy7gGXK317_7Hqk00CAr_JyIPIpYjNS4v_7xkChrrx4Y5jpALQi0Z0xw4VUKj41HVWcLsXxDkpG4jag_dqHP99D0U-cdhsh_Z469fGs");'
+                ></div>
+                <div>
+                  <p class="text-white text-base font-medium leading-normal">Scorpios Rex</p>
+                  <p class="text-[#9bbfaa] text-sm font-normal leading-normal">Learn More</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
